@@ -63,4 +63,3 @@ class TimChecks(discord.AutoShardedClient):
 if __name__ == '__main__':
     bot = TimChecks()
     bot.run(open('token.txt').read().split('\n')[0])
-# test commit
